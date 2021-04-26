@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    padding: 20px 10px;
+    background-color: rgb(212, 226, 221);
+    align-items: center;
+  }
+  
+  .question {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 2px 2px #747070;
+    border-radius: 10px;
+  }
+  .question-title {
+    font-size: 2rem;
+    color: red;
+  }
+
+  .title {
+    padding: 5px 8px;
+    background-color: lightblue;
+    border-radius: 10px;
+  }
